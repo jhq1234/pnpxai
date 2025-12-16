@@ -5,6 +5,10 @@ MAD-XAI Tutorial: Medical Anomaly Detection using Diffusion Models
 This tutorial demonstrates how to use the MAD-XAI explainer for medical image
 anomaly detection. The explainer uses diffusion models to reconstruct images
 and identifies anomalies based on reconstruction errors.
+
+Install the following packages before running:
+pip install opencv-python torchmetrics einops lightning taming-transformers albumentations
+
 """
 
 import os
